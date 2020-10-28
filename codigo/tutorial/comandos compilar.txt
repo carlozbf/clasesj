@@ -1,5 +1,5 @@
-
 PS D:\Varios\github\clasesj\codigo\tutorial\src> javac com\carloz\curso\uno\Principal.java
+https://www.jitendrazaa.com/blog/java/compile-and-run-java-program-in-package-from-command-line/
 
 https://www.codejava.net/java-core/tools/how-to-compile-package-and-run-a-java-program-using-command-line-tools-javac-jar-and-java
 
@@ -11,3 +11,9 @@ PS D:\Varios\github\clasesj\codigo\tutorial> javac -d bin src\com\carloz\curso\u
 PS D:\Varios\github\clasesj\codigo\tutorial> java -classpath "bin" com.carloz.curso.uno.Principal
 this is a test from console and package
 PS D:\Varios\github\clasesj\codigo\tutorial>
+
+
+
+
+Crear el jar
+PS D:\Varios\github\clasesj\codigo\tutorial> jar cvfm Programa.jar manifest.txt -C bin com
