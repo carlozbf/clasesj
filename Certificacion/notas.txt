@@ -1,0 +1,55 @@
+Nombres clases deben ser sustantivos
+Nombres metodos deben ser verbos
+
+esta es una prueba del teclado
+en españolç 1ªº\\\\\\\
+estes si es ?¿`^**^^***¨Ç´{}`[.,;@@@@
+
+
+javac -cp C:\varios\java\Certificacion\1\classes -d C:\varios\java\Certificacion\1\classes C:\varios\java\Certificacion\1\sources\demos\Whatever.java
+
+
+la ejecucion es el nombre del paquete y clase mas los atributos
+java -cp C:\varios\java\Certificacion\1\classes demos.Whatever Pepe "puede ser un larguero" otra cadena
+
+
+A partir de java 11 se puede ejecutar todo el codigo
+java C:\varios\java\Certificacion\1\sources\demos\Whatever.java Pepe "puede ser un larguero" otra cadena
+
+
+Existen 3 tipos de comentarios, una linea, multilinea y de comentarios /**
+esto se puede hacer con javadoc
+
+D107120GC10
+
+java se programming complete student guide
+
+www.oracle.com/technetwork/java/downloads
+
+
+ejercicio
+javac -d ./classes ./sources/labs/HelloWorld.java
+java -cp ./classes labs.HelloWorld vienen mis parametros para validar
+
+
+
+
+*****************************************************
+TEMA 2
+*****************************************************
+existen 8 tipos primitivos
+numeros enteros:
+byte, short, int, long
+punto flotante:
+float, double
+Boolean, char
+
+0L significa 0 de tipo Long
+
+por ejemplo para char
+char j = 'A'
+char k = '\u0041'  //esto es unicode
+char p = '\101'  //esto es ascii
+
+errores que no se deben hacer
+asignar o utilizar un primitivo no inicializado
