@@ -1,0 +1,16 @@
+int period = 3;
+float amount = 10;
+float rate = 0.05F;
+
+switch (period){
+	case 3:
+		amount += amount + rate;
+		System.out.println("uno");
+		break;
+	case 2:
+		amount += amount + rate;
+		System.out.println("dos");
+	case 1:
+		amount += amount + rate;
+		System.out.println("tres");
+}

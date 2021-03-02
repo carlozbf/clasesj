@@ -53,3 +53,16 @@ char p = '\101'  //esto es ascii
 
 errores que no se deben hacer
 asignar o utilizar un primitivo no inicializado
+
+La sentencia switch no permite booleanos, valida una expresion.
+la expresion es con byte, short, int, char, string, enum
+
+
+
+
+
+
+
+
+
+

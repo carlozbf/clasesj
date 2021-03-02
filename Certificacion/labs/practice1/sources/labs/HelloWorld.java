@@ -22,5 +22,21 @@ public class HelloWorld {
 		char x = 'x';
 		char y = ++x;
 		System.out.println(x);
+
+
+		//ahora probando lo del if si se puede sin corchetes
+		if (a>b) 
+			System.out.println("se puede el if sin corchetes pero de una sola linea");
+		else
+			System.out.println("pues es menor");
+
+
+		 char a1='a', a2='\141', a3='\u0061'; //ascii y unicode
+		 System.out.println(a1);
+		 System.out.println(a2);
+		 System.out.println(a3);
+
+		 int i1=0141, i2=0x61;  //octal y hexa
+
 	}
 }
