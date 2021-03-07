@@ -20,7 +20,7 @@ java C:\varios\java\Certificacion\1\sources\demos\Whatever.java Pepe "puede ser 
 Existen 3 tipos de comentarios, una linea, multilinea y de comentarios /**
 esto se puede hacer con javadoc
 
-D107120GC10
+D107120GC10_ag.pdf
 
 java se programming complete student guide
 
@@ -64,5 +64,47 @@ la expresion es con byte, short, int, char, string, enum
 
 
 
+
+
+
+
+*****************************************************
+TEMA 3
+*****************************************************
+String is object and are immutable
+Method chainig, se puede llamar varios metodos en la misma cadena
+	ej: priceadd(tax).setScale(2,Roud)
+	se usa para no crear variables intermedias
+a partir de java8 se usa java.time package, antes era java.util.Date
+//todas estas clases son inmutables, excepto stringbuilder
+
+
+
+
+
+
+
+*****************************************************
+TEMA 5
+*****************************************************
+OVERLOAD METHOD, tener varios metodos pero el retorno es el mismo
+	cambia los parametros
+vararg, habilita arreglo de argumentos, y se define de ultimas
+Si se agrega constructores, el constructor por defecto ya no existe a no ser que uno lo cree.
+ENCAPSULACION, colocar modificadores de acceso a variables y metodos
+INMUTABILITY, clases sin setter, y son seguras ya que no necesitan sincronizacion, son ideales para multithread.
+con final o constantes se puede hacer, pero todas las variables tiene que llenarse en el constructor.
+ENUM, es un tipo de clase especial.
+ENUM, son costantes que representan instancias posibles de un tipo en concreto.
+MEMORIA
+Stack/Heap
+Stack, variables primitivas y referencias de objetos locales (metodos) por thread
+Heap, clases y sus instancias, y es compartida, tambien por todas las demas threads
+los alphanumericos que dan los objetos como referencia, son solo identificadores, no son direcciones de memoria.
+
+
+terminos nuevos:
+instance intizlizer, blqoue de codio que se ejecuta antes de invocar el constructor.
+Es similar al static inicializador, pero este ultimo solo se ejecuta una vez cuando la clase se carga en memoria.
 
 
